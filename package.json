@@ -1,0 +1,15 @@
+{
+  "name": "mtproto-delivery",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Persistent MTProto delivery service for self-destructing Telegram photos",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^0.10.4",
+    "express": "^4.21.0",
+    "telegram": "^2.26.16"
+  }
+}
